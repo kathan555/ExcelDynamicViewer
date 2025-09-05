@@ -1,0 +1,56 @@
+# .gitignore for WPF/.NET projects
+
+# Build results
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+packages/
+*.nupkg
+nuget.exe
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]uild/
+[Bb]uildOutput/
+
+# MSTest test results
+TestResults/
+*.trx
+
+# ReSharper
+_ReSharper.*
+*.DotSettings
+
+# Windows
+Thumbs.db
+[Dd]esktop.ini
+
+# Mac
+.DS_Store
+
+# Local history
+.history/
+
+# Backup files
+*.bak
+*.tmp
+*.cache
+
+# Ignore local settings files
+appsettings.local.json
+*.local.*
